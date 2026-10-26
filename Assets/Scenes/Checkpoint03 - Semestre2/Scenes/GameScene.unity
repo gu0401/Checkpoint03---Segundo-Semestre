@@ -361,10 +361,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   player: {fileID: 40534449}
-  speed: 2
-  distanceWakeUp: 5
-  distanceAttack: 3
-  distanceLoseTarget: 6
+  speed: 4
+  distanceWakeUp: 7
+  distanceAttack: 2
+  distanceLoseTarget: 15
   life: 3
 --- !u!61 &374902483
 BoxCollider2D:
@@ -680,7 +680,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ec450c607ab1bd4aa368ce1f96d9b71, type: 3}
   m_Name: 
